@@ -1,1 +1,18 @@
-{}
+{
+  "theme": {
+    "slug": "projectrig",
+    "name": "Project Rig",
+    "author": "Mercy Baffour"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "rr.local",
+      "bypassPort": "8181",
+      "https": true
+    },
+    "debug": {
+      "scripts": false
+    }
+  }
+}
